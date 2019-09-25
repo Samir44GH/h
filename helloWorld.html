@@ -7,17 +7,17 @@
 </head>
 <body>
 	<div><header><h1> Hello World ! Bienvenue à la 3WA !</h1></header>
-	<nav><a href="">L'intégration</a> <a href="">Le développement</a> 
-		 <a href="">la répartition des modules</a> <a href="">Jouons avec le CSS !</a></nav>
+	<nav><a href="#intégration">L'intégration</a> <a href="#développement">Le développement</a> 
+		 <a href="#répartition">la répartition des modules</a> <a href="#CSS">Jouons avec le CSS !</a></nav>
 		<h2>Au cours de cette formation, nous allos voir deux matières :</h2>
-		<h3>L'intégration</h3>
+		<h3 id="intégration">L'intégration</h3>
 		<h4>Le HTML:</h4>
 		<img src="logoHTML5.png" class="logo">
 		<p>Le HTML sert à créer le contenu du site : elle va contenir uiquement la partie textuelle du site.</p>
 		<h4>Le CSS:</h4>
 		<img src="logoCSS3.png" class="logo"> 
 		<p>Le CSS va nous permettre d'ajouter la couche graphique à notre site : les couleurs, les formes, le fond, etc.</p>
-		<h3>Le développement :</h3>
+		<h3 id="développement">Le développement :</h3>
 		<h4>Le Javascript :</h4>
 		<img src="logoJS.png" class="logo">
 		<p>Javascript est un langage de programmation de script employé pour renre une page web interactive, le comportement de la page et son appparence pourra varier en fonction de certains paramètres.</p>
@@ -28,11 +28,22 @@
 		<img src="logoMysql.png" class="logo">
 		<p>MySQL est un système de gestion de base de données, il permet d'enregistrer des informations remplies par l'utilisateur (exemple: forulaire de création de compte) pour ensuite être réutilisé au moment appropié (ex: connexion à un site internet avec un identifiant et un mot de passe).</p>
 	</div>
-	<div><h2>400 heures de formation intensive:</h2>
+	<div class="av"><h2 id="répartition">400 heures de formation intensive:</h2>
 		<p>Le programme de formation de la 3W Academy est découpé en 57 modules.<br/>
 			<ul>
 				<li>HTML, CSS, Responsive web design, Wordpress, Bootstrap: 16 modules</li>
-			</ul></p></div>
+				<li>Javascript: 12 modules</li>
+				<li>PHP, MySQL, POO, MVC: 25 modules</li>
+				<li>Symfony: 4 modules</li>
+			</ul>
+		</p></div>
+		><h2 id="CSS">Et ici, nous allons un peu jouer avec le CSS!</h2>
+			<h3><strong>Les couleurs du texte:</strong> Et ma police sera Arial!</h3>
+			<p class="r">Ce paragraphe est rouge.</p> <p class="b">Ce paragraphe est bleu.</p> <p class="v">Ce paragraphe est vert.</p>
+			<h3><strong>Les couleurs du fond:</strong>Et ma police sera monospace!</h3>
+			<div class="monospace"><p class="pr">Ce paragraphe est rouge.</p> <p class="pb">Ce paragraphe est bleu.</p> <p class="pv">Ce paragraphe est vert.</p></div>
+			
+			<footer><img src="logo3W.jpg" class="3W"><p><span class="c">Cet exercice de </span><a href="">3W Academy</a> est mis à disposition <a href="">pour l'usage personnel des étudiants Pas de rediffusion-Attribution-Pas d'Utilisation Commerciale-Pas de modification-International.</a>Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="">contact@3wa.fr.</a>Les maquettes ont été réalisées par <a href="">Justine Muller.</a></p> </footer>
 
 </body>
 </html>
