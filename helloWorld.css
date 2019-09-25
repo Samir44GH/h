@@ -1,0 +1,51 @@
+
+.r
+{
+	color: red;
+}
+
+.b
+{
+	color: blue;
+}
+
+.v
+{
+	color: green;
+}
+
+.pr
+{
+	background-color: red;
+}
+
+.pv
+{
+	background-color: green;
+}
+
+.pb
+{
+	background-color: blue;
+}
+
+.monospace
+{
+	font-family: monospace;
+}
+
+.arial
+{
+	font-family: Arial;
+}
+
+footer
+{
+	text-align: center; 
+	font-size: 10px;
+}
+
+.w
+{
+	height: 40px;
+}
